@@ -1,6 +1,6 @@
 # 🩺 Facial Skin Diseases Classification using Deep Learning
 
-> **GSSoC 2026 Contribution** | Deep Learning Simplified Repository
+> Deep Learning based multi-class skin disease classification using transfer learning and CNN architectures.
 
 ---
 
@@ -10,11 +10,18 @@ This project classifies facial/skin diseases using multiple deep learning archit
 
 ---
 
+## 🎯 Key Results
+
+- Developed a multi-class skin disease classification pipeline using Deep Learning.
+- Trained and compared 7 CNN architectures including VGG16, ResNet50, DenseNet121, EfficientNetB0, MobileNetV2, Xception, and a Custom CNN.
+- Applied transfer learning, fine-tuning, and data augmentation techniques.
+-  Achieved best performance with VGG16, reaching 56.19% test accuracy on a 7-class skin disease classification task.
+- Evaluated models using confusion matrices, precision, recall, F1-score, and classification reports.
+
+---
+
 ## 📂 Dataset
 
-**Original Issue Dataset:** [Facial Skin Diseases Dataset – Kaggle](https://www.kaggle.com/datasets/osmankagankurnaz/facial-skin-diseases-dataset)
-
-> ⚠️ The original dataset contained only one class (Acne), which is insufficient for multi-class classification and model comparison. After discussion with the maintainer ([@abhisheks008](https://github.com/abhisheks008)), permission was granted to use a richer dataset.
 
 **Dataset Used:** [DermNet – Kaggle](https://www.kaggle.com/datasets/shubhamgoel27/dermnet)
 
@@ -148,7 +155,7 @@ Facial Skin Diseases Classification using DL/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/Deep-Learning-Simplified.git
+git clone https://github.com/Radhika-789/Facial-Skin-Disease-Classification.git
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -157,6 +164,21 @@ pip install -r requirements.txt
 jupyter notebook FacialSkinDetection_Complete.ipynb
 ```
 > ⚠️ A GPU is strongly recommended. CPU training will be very slow.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Scikit-learn
+- OpenCV
+- Matplotlib
+- Deep Learning
+- Computer Vision
+- Transfer Learning
 
 ---
 
@@ -184,12 +206,14 @@ See `requirements.txt` for full list. Key dependencies:
 
 ## 👩‍💻 Contributor
 
-**Radhika**
+**Radhika Nijhara**
+
+- B.Tech, Artificial Intelligence & Data Science
+- Indian Institute of Technology Jodhpur
 - GitHub: [@Radhika-789](https://github.com/Radhika-789)
-- GSSoC 2026 Contributor
 
 ---
 
-## 📜 License
+## 🙏 Acknowledgements
 
-This project is part of the [Deep Learning Simplified](https://github.com/abhisheks008/DL-Simplified) open source repository under GSSoC 2026.
+This project was developed as part of a contribution to the Deep Learning Simplified open-source repository during GSSoC 2026.
